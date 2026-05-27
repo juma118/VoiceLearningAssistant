@@ -1,0 +1,20 @@
+{
+  "name": "voice-learning-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Voice-enabled AI learning platform monorepo.",
+  "scripts": {
+    "dev": "docker compose up --build",
+    "web:dev": "npm --workspace apps/web run dev",
+    "web:build": "npm --workspace apps/web run build",
+    "web:lint": "npm --workspace apps/web run lint",
+    "api:test": "cd apps/api && pytest",
+    "compose:down": "docker compose down -v"
+  },
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}
