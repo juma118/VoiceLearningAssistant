@@ -2,6 +2,26 @@
 
 A production-style full-stack AI learning platform for voice tutoring, RAG search, multilingual explanations, quizzes, and instructor analytics.
 
+## Screenshots
+
+![Landing page](docs/screenshots/landing.png)
+
+| Student dashboard | Voice tutor |
+| --- | --- |
+| ![Student dashboard](docs/screenshots/dashboard.png) | ![Voice assistant](docs/screenshots/assistant.png) |
+
+| Semantic search | Practice quizzes |
+| --- | --- |
+| ![Semantic search](docs/screenshots/search.png) | ![Quiz generator](docs/screenshots/quiz.png) |
+
+| Progress analytics | Instructor dashboard |
+| --- | --- |
+| ![Progress analytics](docs/screenshots/progress.png) | ![Instructor analytics](docs/screenshots/instructor.png) |
+
+| Role-based login | Course content management |
+| --- | --- |
+| ![Login](docs/screenshots/login.png) | ![Instructor content](docs/screenshots/instructor-content.png) |
+
 ## Stack
 
 - Frontend: Next.js, TypeScript, Tailwind CSS
